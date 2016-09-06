@@ -30,3 +30,10 @@ var ids = items.map(function(item) {
 var cheapItems = items.filter(function(item) {
   return item.price <=20;
 });
+
+//reduce()
+var total = items.reduce(function(prev, current) {
+  console.log('prev', prev.price);
+  console.log('current', current.price);
+  return prev.price + current.price;
+})
