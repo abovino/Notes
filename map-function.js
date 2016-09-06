@@ -15,9 +15,18 @@ var items = [{
   price: 30,
   name: 'shirt'
 }];
-//return an array of ids using map Function
 
+//map()
 var ids = items.map(function(item) {
   console.log(item.id, item.name, item.price);
-  return item.id;
-})
+  return {
+    id: item.id,
+    name: item.name,
+    price: item.price
+  }
+});
+
+//filter() 
+var cheapItems = items.filter(function(item) {
+  return item.price <=20;
+});
