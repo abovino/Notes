@@ -37,3 +37,10 @@ var total = items.reduce(function(prev, current) {
   console.log('current', current.price);
   return prev.price + current.price;
 })
+
+//using map() and reduce()
+items.map(function(item) {
+    return item.price;
+}).reduce(function(previous, current) {
+    return previous + current;
+});
