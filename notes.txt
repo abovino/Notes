@@ -1,1 +1,6 @@
 Review 9/6/16
+
+-ES6 js 
+	-var x = 0;
+	-let x = 0;
+	-cont x = 0;
