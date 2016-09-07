@@ -7,3 +7,5 @@ Review 9/6/16
 
 -jsx
 -Babel (compiler)
+
+-react templating {} <-
