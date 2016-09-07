@@ -1,3 +1,4 @@
+//Creates 2 divs with name and age
 var HelloUser = React.createClass({
   render: function() {
     return (
@@ -9,6 +10,7 @@ var HelloUser = React.createClass({
   }
 });
 
+//Creates a signup button
 var Signup = React.createClass({
   render: function() {
     return (
