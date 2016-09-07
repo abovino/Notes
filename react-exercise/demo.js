@@ -8,4 +8,14 @@ var HelloUser = React.createClass({
     )
   }
 });
+
+var Signup = React.createClass({
+  render: function() {
+    return (
+      <button className="btn btn-primary">Signup!</button>
+    )
+  }
+});
+
 ReactDOM.render(<HelloUser name="Tyler"/>, document.getElementById('app'));
+ReactDOM.render(<Signup/>, document.getElementById('signup'));
